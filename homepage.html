@@ -1,0 +1,202 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Makam Pahlawan Wonosobo
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 400;
+            margin: 0 auto;
+            overflow: hidden;
+            background-color: #fff;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background-color: #fff;
+        }
+        .header img {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            margin-right: auto;
+        }
+        .header .welcome-text {
+            flex-grow: 1;
+        }
+        .header .welcome-text p {
+            margin: 0;
+        }
+        .header .welcome-text p:first-child {
+            font-size: 14px;
+            color: #888;
+        }
+        .header .welcome-text p:last-child {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .header .menu-icon {
+            font-size: 24px;
+            color: #e74c3c;
+        }
+        .title-bar {
+            background-color: #e74c3c;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            position: relative;
+        }
+        .title-bar .star-icon {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+        }
+        .main-image {
+            width: 120%;
+            height: 75%;
+
+        }
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        .search-bar input {
+            width: 90%;
+            padding: 10px;
+            border: 2px solid #e74c3c;
+            border-radius: 25px;
+            font-size: 16px;
+        }
+        .list-section, .history-section {
+            padding: 10px;
+        }
+        .list-section .section-title, .history-section .section-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .list-section .list-item, .history-section .list-item {
+            display: flex;
+            align-items: center;
+            background-color: #e74c3c;
+            color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .list-section .list-item img, .history-section .list-item img {
+            border-radius: 5px;
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+        .list-section .list-item .item-text, .history-section .list-item .item-text {
+            flex-grow: 1;
+            font-size: 18px;
+        }
+        .list-section .list-item .arrow-icon, .history-section .list-item .arrow-icon {
+            font-size: 24px;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #e74c3c;
+            padding: 10px 0;
+        }
+        .footer .footer-icon {
+            font-size: 24px;
+            color: #fff;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="header">
+    <img alt="Profile picture of Yusfiana" src="https://placehold.co/50x50"/>
+    <div class="welcome-text">
+     <p>
+      Selamat Datang,
+     </p>
+     <p>
+      YUSFIANA
+     </p>
+    </div>
+    <i class="fas fa-bars menu-icon">
+    </i>
+   </div>
+   <div class="title-bar">
+    <i class="fas fa-star star-icon">
+    </i>
+    MAKAM PAHLAWAN WONOSOBO
+   </div>
+   <img alt="Image of Makam Pahlawan Wonosobo" class="main-image" src="makam pahlawan wonosobo.jpg"/>
+   <div class="search-bar">
+    <input placeholder="Cari Makam / Nama Pahlawan" type="text"/>
+   </div>
+   <div class="list-section">
+    <div class="section-title">
+     List pahlawan
+    </div>
+    <div class="list-item">
+     <img alt="Image of S. Parman" src="sparman.png"/>
+     <div class="item-text">
+      S. Parman
+     </div>
+     <a href= "list pahlawan.html">
+    <i class="fas fa-arrow-right arrow-icon"></i>
+    </a>
+    </div>
+   </div>
+   <div class="history-section">
+    <div class="section-title">
+     Cerita Sejarah
+    </div>
+    <div class="list-item">
+     <img alt="Image of KRT Setjonegoro" src="Sri Sultan Hamengkubuwono IX.jpg"/>
+     <div class="item-text">
+      KRT Setjonegoro
+     </div>
+     <a href="listseja.html" class="footer-icon-link">
+     <i class="fas fa-arrow-right arrow-icon"></i>
+    </a>
+    </a>
+     </i>
+    </div>
+   </div>
+   <div class="footer">
+    <a href="homepage.html" class="footer-icon-link">
+      <i class="fas fa-home footer-icon"></i>
+    </a>
+    <a href="riwayatkunjungan.html" class="footer-icon-link">
+      <i class="fas fa-history footer-icon"></i>
+    </a>
+    <a href="habis.html" class="footer-icon-link">
+      <i class="fas fa-qrcode footer-icon"></i>
+    </a>
+    <a href="notifikasi.html" class="footer-icon-link">
+      <i class="fas fa-bell footer-icon"></i>
+    </a>
+    <a href="setting.html" class="footer-icon-link">
+      <i class="fas fa-cog footer-icon"></i>
+    </a>
+  </div>
+  </div>
+ </body>
+</html>

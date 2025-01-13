@@ -1,0 +1,89 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+        .container {
+            width: 90%;
+            max-width: 400px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 2px solid red;
+        }
+        .header i {
+            font-size: 24px;
+            color: red;
+            margin-right: 10px;
+        }
+        .header h1 {
+            font-size: 20px;
+            color: red;
+            margin: 0;
+        }
+        .notification {
+            padding: 20px;
+        }
+        .notification-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .notification-item i {
+            font-size: 24px;
+            color: red;
+            margin-right: 10px;
+        }
+        .notification-item p {
+            margin: 0;
+            font-size: 16px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="homepage.html" class="footer-icon-link">
+                <i class="fas fa-arrow-left"></i>
+            </a>
+
+            <h1>Notifikasi</h1>
+        </div>
+        <div class="notification">
+            <div class="notification-item">
+                <i class="fas fa-key"></i>
+                <p>Anda telah mengubah No. telepon</p>
+            </div>
+            <div class="notification-item">
+                <i class="fas fa-pencil-alt"></i>
+                <p>Anda telah mengubah Nama</p>
+            </div>
+            <div class="notification-item">
+                <i class="fas fa-monument"></i>
+                <p>Anda telah mengunjungi Makam S. Parman</p>
+            </div>
+            <div class="notification-item">
+                <i class="fas fa-book"></i>
+                <p>Anda telah membaca cerita KRT Setjonegoro</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

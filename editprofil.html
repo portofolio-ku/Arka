@@ -1,0 +1,154 @@
+<html>
+ <head>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <style>
+   body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+        .container {
+            width: 90%;
+            max-width: 400px;
+            border: 1px solid #000;
+            border-radius: 15px;
+            overflow: hidden;
+            background-color: #fff;
+        }
+        .header {
+            background-color: #d32f2f;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        .header img {
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+        }
+        .header .name {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .header .edit-icon, .header .back-icon {
+            position: absolute;
+            top: 20px;
+            font-size: 20px;
+            color: #fff;
+        }
+        .header .back-icon {
+            left: 20px;
+        }
+        .header .edit-icon {
+            right: 20px;
+        }
+        .header .camera-icon {
+            position: absolute;
+            bottom: -15px;
+            right: calc(50% - 15px);
+            background-color: #d32f2f;
+            border-radius: 50%;
+            padding: 5px;
+            color: #fff;
+            font-size: 20px;
+        }
+        .info {
+            padding: 20px;
+        }
+        .info h2 {
+            color: #d32f2f;
+            margin-bottom: 20px;
+        }
+        .info .info-item {
+            margin-bottom: 15px;
+        }
+        .info .info-item label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .info .info-item input, .info .info-item select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .info .info-item input[type="text"] {
+            color: #d32f2f;
+        }
+  </style>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div class="container">
+   <div class="header">
+   <a href="setting.html" class="footer-icon-link">
+    <i class="fas fa-arrow-left back-icon">
+    </i>
+    </a
+    <img alt="Profile picture of Yusfiana" src="https://placehold.co/60x60"/>
+    <div class="name">
+     YUSFIANA
+    </div>
+    <i class="fas fa-pen edit-icon">
+    </i>
+    <i class="fas fa-camera camera-icon">
+    </i>
+   </div>
+   <div class="info">
+    <h2>
+     Info
+    </h2>
+    <div class="info-item">
+     <label>
+      Email
+     </label>
+     <input type="email" value="YusfianaWSB666@gmail.com"/>
+    </div>
+    <div class="info-item">
+     <label>
+      User id
+     </label>
+     <input type="text" value="@yusfiaja12"/>
+    </div>
+    <div class="info-item">
+     <label>
+      Password
+     </label>
+     <input type="password" value="********"/>
+    </div>
+    <div class="info-item">
+     <label>
+      No.Telepon
+     </label>
+     <input type="tel" value="+62 819 67241644"/>
+    </div>
+    <div class="info-item">
+     <label>
+      Jenis Kelamin
+     </label>
+     <select>
+      <option value="Laki-Laki">
+       Laki-Laki
+      </option>
+      <option value="Perempuan">
+       Perempuan
+      </option>
+      <option value="Lainnya">
+       Lainnya
+      </option>
+     </select>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

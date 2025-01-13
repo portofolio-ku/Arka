@@ -1,0 +1,125 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Sejarah</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .header {
+            background-color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 3px solid red;
+        }
+        .header h1 {
+            margin: 0;
+            color: red;
+            font-size: 24px;
+        }
+        .list-item {
+            padding: 15px;
+            border-bottom: 1px solid #ccc;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .list-item:last-child {
+            border-bottom: none;
+        }
+        .list-item span {
+            color: red;
+            font-size: 18px;
+        }
+        .list-item button {
+            background-color: red;
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .footer {
+            background-color: red;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .footer i {
+            color: #fff;
+            font-size: 24px;
+        }
+        .footer .qr-code {
+            background-color: #fff;
+            border-radius: 50%;
+            padding: 10px;
+        }
+        .footer .qr-code i {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>List Sejarah</h1>
+        </div>
+        <div class="list-item">
+            <span>S. Parman</span>
+            <button>Lihat Cerita</button>
+        </div>
+        <div class="list-item">
+            <span>Letkol Bambang Sugeng</span>
+            <button>Lihat Cerita</button>
+        </div>
+        <div class="list-item">
+            <span>(K.R.T.) Setjonegoro</span>
+            <a href="sejarah.html">
+            <button>Lihat Cerita</button></a>
+        </div>
+        <div class="list-item">
+            <span>Raden Mas Jayanegara</span>
+            <button>Lihat Cerita</button>
+        </div>
+        <div class="list-item">
+            <span>Mas Ngabehi Djojoneogoro</span>
+            <button>Lihat Cerita</button>
+        </div>
+        <div class="list-item">
+            <span>Ki Ageng Bangkong Reang</span>
+            <button>Lihat Cerita</button>
+        </div>
+        <div class="footer">
+            <a href="homepage.html">
+            <i class="fas fa-home"></i>
+            </a>
+            <a href="homepage.html">
+            <i class="fas fa-history"></i>
+            </a>
+            <div class="qr-code">
+                <i class="fas fa-qrcode"></i>
+            </div>
+            <a href="homepage.html">
+            <i class="fas fa-bell"></i>
+            </a>
+            <a href="homepage.html">
+            <i class="fas fa-cog"></i>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
